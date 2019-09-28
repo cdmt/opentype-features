@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "bale";
+  src: url("fonts/bale-rg.eot"),
+    url("fonts/bale-rg.woff2") format("woff2"),
+    url("fonts/bale-rg.woff") format("woff"),
+    url("fonts/bale-rg.ttf") format("truetype");
+}
+
+
+html,
+body {
+  margin: 20px;
+}
+
+.title {
+  font-family: bale;
+  font-size: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #bbb;
+}
+
+.title-not {
+  /* font-size: 30px; */
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.numbers {
+  font-family: bale;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: ATFabriga;
+}
+
+.tabular {
+  font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  -moz-font-feature-settings: "tnum";
+}
+
+.old {
+  font-feature-settings:"onum";
+  -webkit-font-feature-settings:"onum";
+  -moz-font-feature-settings: "onum";
+}
+
+.oldTab {
+  font-feature-settings:"onum", "tnum";
+  -webkit-font-feature-settings:"onum", "tnum";
+  -moz-font-feature-settings: "onum", "tnum";
+}
+
+.smcp {
+  font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  -moz-font-feature-settings: "smcp";
+}
+
+.smcpTab {
+  font-feature-settings: "smcp", "tnum";
+  -webkit-font-feature-settings: "smcp", "tnum";
+  -moz-font-feature-settings: "smcp", "tnum";
+}
+
+.salt {
+  font-feature-settings: "salt";
+  -webkit-font-feature-settings: "salt";
+  -moz-font-feature-settings: "salt";
+}
+
+.liga {
+  font-feature-settings: "liga" 0;
+  -webkit-font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga" 0;
+}
