@@ -32,10 +32,6 @@ body {
   margin-bottom: 10px;
 }
 
-.btn {
-  margin-bottom: 20px;
-}
-
 .text {
   font-family: ATFabriga;
 }
@@ -80,4 +76,8 @@ body {
   font-feature-settings: "liga" 0;
   -webkit-font-feature-settings: "liga" 0;
   -moz-font-feature-settings: "liga" 0;
+}
+
+.feature{
+  margin-bottom: 10px;
 }
