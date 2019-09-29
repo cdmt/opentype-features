@@ -11,6 +11,10 @@ body {
   margin: 20px;
 }
 
+main{
+  max-width: 1200px;
+  margin: auto;
+}
 .title {
   font-family: bale;
   font-size: 50px;
@@ -36,6 +40,12 @@ pre{
   padding-left: 0px;
   word-wrap: normal;
   margin: 0;
+}
+
+.feature{
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
 }
 
 .tabular {
@@ -68,26 +78,24 @@ pre{
   -moz-font-feature-settings: "smcp", "tnum";
 }
 
-.salt {
-  font-feature-settings: "salt";
-  -webkit-font-feature-settings: "salt";
-  -moz-font-feature-settings: "salt";
-}
-
 .liga {
   font-feature-settings: "liga" 0;
   -webkit-font-feature-settings: "liga" 0;
   -moz-font-feature-settings: "liga" 0;
 }
 
-.feature{
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ddd;
-}
-
 .numbers-old{
   font-feature-settings:"onum";
   -webkit-font-feature-settings:"onum";
   -moz-font-feature-settings: "onum";
+}
+
+.salt {
+  font-feature-settings: "salt";
+  -webkit-font-feature-settings: "salt";
+  -moz-font-feature-settings: "salt";
+}
+
+.salt .salt_fig{
+  color: #aaa;
 }

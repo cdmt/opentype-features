@@ -10,122 +10,123 @@
 </head>
 
 <body>
-  <h1 class="title">
-    Opentype Features
-  </h1>
+  <main>
+    <h1 class="title">
+      Opentype Features
+    </h1>
 
-  <div class="feature">
-    <button class="btn" onClick="old()">
-      Old Style
-    </button>
-    <div class="numbers" id="old">
-      AaBbCc 0123456789
-    </div>
-    <pre>
+    <div class="feature">
+      <button class="btn" onClick="old()">
+        Old Style
+      </button>
+      <div class="numbers" id="old">
+        AaBbCc 0123456789
+      </div>
+      <pre>
       .old {
         font-feature-settings:"onum";
         -webkit-font-feature-settings:"onum";
         -moz-font-feature-settings: "onum";
       }
     </pre>
-  </div>
-
-  <div class="feature">
-    <button class="btn" onClick="tabluar()">
-      Tabular
-    </button>
-    <div class="numbers" id="tabular">
-      AaBbCc 0123456789
     </div>
-    <pre>
+
+    <div class="feature">
+      <button class="btn" onClick="tabluar()">
+        Tabular
+      </button>
+      <div class="numbers" id="tabular">
+        AaBbCc 0123456789
+      </div>
+      <pre>
       .tabular {
         font-feature-settings: "tnum";
         -webkit-font-feature-settings: "tnum";
         -moz-font-feature-settings: "tnum";
       }
   </pre>
-  </div>
-
-  <div class="feature">
-    <button class="btn" onClick="oldTab()">
-      Old Style Tabular
-    </button>
-    <div class="numbers old" id="oldTab">
-      AaBbCc 0123456789
     </div>
-    <pre>
+
+    <div class="feature">
+      <button class="btn" onClick="oldTab()">
+        Old Style Tabular
+      </button>
+      <div class="numbers old" id="oldTab">
+        AaBbCc 0123456789
+      </div>
+      <pre>
       .oldTab {
         font-feature-settings:"onum", "tnum";
         -webkit-font-feature-settings:"onum", "tnum";
         -moz-font-feature-settings: "onum", "tnum";
       }
     </pre>
-  </div>
-
-  <div class="feature">
-    <button class="btn" onClick="smcp()">
-      smcp
-    </button>
-    <div class="numbers" id="smcp">
-      AaBbCcDdEe 0123456789
     </div>
-    <pre>
+
+    <div class="feature">
+      <button class="btn" onClick="smcp()">
+        smcp
+      </button>
+      <div class="numbers" id="smcp">
+        AaBbCcDdEe 0123456789
+      </div>
+      <pre>
       .smcp {
         font-feature-settings: "smcp";
         -webkit-font-feature-settings: "smcp";
         -moz-font-feature-settings: "smcp";
       }
     </pre>
-  </div>
-
-  <div class="feature">
-    <button class="btn" onClick="smcpTab()">
-      smcp Tabular
-    </button>
-    <div class="numbers" id="smcpTab">
-      AaBbCcDdEe 0123456789
     </div>
-    <pre>
+
+    <div class="feature">
+      <button class="btn" onClick="smcpTab()">
+        smcp Tabular
+      </button>
+      <div class="numbers" id="smcpTab">
+        AaBbCcDdEe 0123456789
+      </div>
+      <pre>
       .smcpTab {
         font-feature-settings: "smcp", "tnum";
         -webkit-font-feature-settings: "smcp", "tnum";
         -moz-font-feature-settings: "smcp", "tnum";
       }
     </pre>
-  </div>
-
-  <div class="feature">
-    <button class="btn" onClick="salt()">
-      salt
-    </button>
-    <div class="numbers" id="salt">
-      AaBbCcDdEeFfGgHh
     </div>
-    <pre>
+
+    <div class="feature">
+      <button class="btn" onClick="salt()">
+        salt
+      </button>
+      <div class="numbers" id="salt">
+        A<span class="salt_fig">a</span>BbCcDdEeFfG<span class="salt_fig">g</span>Hh
+      </div>
+      <pre>
       .salt {
         font-feature-settings: "salt";
         -webkit-font-feature-settings: "salt";
         -moz-font-feature-settings: "salt";
       }
     </pre>
-  </div>
-
-  <div class="feature">
-    <button class="btn" onClick="liga()">
-      liga
-    </button>
-    <div class="numbers" id="liga">
-      fi fl fb fh fj fk ft ffb ffh ffj ffk fft fy ffy
     </div>
-    <pre>
+
+    <div class="feature">
+      <button class="btn" onClick="liga()">
+        liga
+      </button>
+      <div class="numbers" id="liga">
+        fi fl fb fh fj fk ft ffb ffh ffj ffk fft fy ffy
+      </div>
+      <pre>
       .liga {
         font-feature-settings: "liga" 0;
         -webkit-font-feature-settings: "liga" 0;
         -moz-font-feature-settings: "liga" 0;
       }
     </pre>
-  </div>
-
+    </div>
+  </main>
 
   <script src="script.js"></script>
 </body>
