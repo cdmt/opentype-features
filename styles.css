@@ -11,6 +11,10 @@ body {
   margin: 20px;
 }
 
+h1{
+  font-weight: normal;
+}
+
 main{
   max-width: 1200px;
   margin: auto;
@@ -42,11 +46,19 @@ pre{
   margin: 0;
 }
 
+button{
+  font-family: sans-serif;
+  background: #ddd;
+  border: none;
+}
+
 .feature{
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #ddd;
 }
+
+/* mixin to output this, need sass */
 
 .tabular {
   font-feature-settings: "tnum";
