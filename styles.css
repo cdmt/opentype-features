@@ -27,8 +27,15 @@ body {
 
 .numbers {
   font-family: bale;
-  font-size: 50px;
+  font-size: 70px;
   margin-bottom: 20px;
+}
+
+pre{
+  background: #ddd;
+  padding-left: 0px;
+  word-wrap: normal;
+  margin: 0;
 }
 
 .tabular {
@@ -74,5 +81,13 @@ body {
 }
 
 .feature{
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.numbers-old{
+  font-feature-settings:"onum";
+  -webkit-font-feature-settings:"onum";
+  -moz-font-feature-settings: "onum";
 }

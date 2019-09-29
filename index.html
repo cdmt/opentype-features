@@ -6,28 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 </head>
 
 <body>
   <h1 class="title">
     Opentype Features
   </h1>
-
-  <div class="feature">
-    <button class="btn" onClick="tabluar()">
-      Tabular
-    </button>
-    <div class="numbers" id="tabular">
-      AaBbCc 0123456789
-    </div>
-    <pre>
-      .tabular {
-        font-feature-settings: "tnum";
-        -webkit-font-feature-settings: "tnum";
-        -moz-font-feature-settings: "tnum";
-      }
-    </pre>
-  </div>
 
   <div class="feature">
     <button class="btn" onClick="old()">
@@ -45,12 +30,27 @@
     </pre>
   </div>
 
+  <div class="feature">
+    <button class="btn" onClick="tabluar()">
+      Tabular
+    </button>
+    <div class="numbers" id="tabular">
+      AaBbCc 0123456789
+    </div>
+    <pre>
+      .tabular {
+        font-feature-settings: "tnum";
+        -webkit-font-feature-settings: "tnum";
+        -moz-font-feature-settings: "tnum";
+      }
+  </pre>
+  </div>
 
   <div class="feature">
     <button class="btn" onClick="oldTab()">
       Old Style Tabular
     </button>
-    <div class="numbers" id="oldTab">
+    <div class="numbers old" id="oldTab">
       AaBbCc 0123456789
     </div>
     <pre>
