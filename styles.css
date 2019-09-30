@@ -28,7 +28,6 @@ main{
 }
 
 .title-not {
-  /* font-size: 30px; */
   margin-bottom: 40px;
   margin-left: 20px;
 }
@@ -40,16 +39,22 @@ main{
 }
 
 pre{
-  background: #ddd;
+  background: #eee;
+  padding-top: 10px;
   padding-left: 0px;
-  word-wrap: normal;
   margin: 0;
+  word-wrap: normal;
 }
 
 button{
-  font-family: sans-serif;
-  background: #ddd;
-  border: none;
+  background: #82EBF0;
+  border: 1px solid #78D6DB;
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+
+button:hover{
+  background: #78D6DB;
 }
 
 .feature{
