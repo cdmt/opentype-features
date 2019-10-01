@@ -1,6 +1,5 @@
 opentypeFeature = (feature, title1, title2) => {
   const element = document.getElementById(feature);
-  let btn = event.target.innerText
   if (element.classList.contains(feature)) {
     element.classList.remove(feature);
   } else {
@@ -11,5 +10,4 @@ opentypeFeature = (feature, title1, title2) => {
   } else {
     event.target.innerText = title1
   }
-
 }
