@@ -114,9 +114,9 @@ button:hover{
 }
 
 .frag {
-  font-feature-settings: "frag";
-  -webkit-font-feature-settings: "frag";
-  -moz-font-feature-settings: "frag";
+  font-feature-settings: "frac";
+  -webkit-font-feature-settings: "frac";
+  -moz-font-feature-settings: "frac";
 }
 
 .salt .salt_fig{
