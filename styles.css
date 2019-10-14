@@ -113,6 +113,12 @@ button:hover{
   -moz-font-feature-settings: "salt";
 }
 
+.frag {
+  font-feature-settings: "frag";
+  -webkit-font-feature-settings: "frag";
+  -moz-font-feature-settings: "frag";
+}
+
 .salt .salt_fig{
   color: #888;
 }
