@@ -128,17 +128,49 @@
     </div>
 
     <div class="feature">
-      <button class="btn" onClick="opentypeFeature('frac', 'Ligatures', 'Standard')">
+      <button class="btn" onClick="opentypeFeature('frac', 'Fractions', 'Standard')">
         Fractions
       </button>
       <div class="numbers" id=frac>
-        1/2 1/3 1/4
+        3/4 1/3 1/4
       </div>
       <pre>
-      .liga {
+      .frac {
         font-feature-settings: "frac";
         -webkit-font-feature-settings: "frac";
         -moz-font-feature-settings: "frac";
+      }
+    </pre>
+    </div>
+
+    <div class="feature">
+      <button class="btn" onClick="opentypeFeature('dnom', 'Denominators', 'Standard')">
+        Denominators
+      </button>
+      <div class="numbers" id=dnom>
+        AaBbCcDdEe 0123456789
+      </div>
+      <pre>
+      .frac {
+        font-feature-settings: "dnom";
+        -webkit-font-feature-settings: "dnom";
+        -moz-font-feature-settings: "dnom";
+      }
+    </pre>
+    </div>
+
+    <div class="feature">
+      <button class="btn" onClick="opentypeFeature('numr', 'Numerators', 'Standard')">
+        Denominators
+      </button>
+      <div class="numbers" id=numr>
+        AaBbCcDdEe 0123456789
+      </div>
+      <pre>
+      .frac {
+        font-feature-settings: "numr";
+        -webkit-font-feature-settings: "numr";
+        -moz-font-feature-settings: "numr";
       }
     </pre>
     </div>

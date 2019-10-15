@@ -119,6 +119,19 @@ button:hover{
   -moz-font-feature-settings: "frac";
 }
 
+.numr {
+  font-feature-settings: "numr";
+  -webkit-font-feature-settings: "numr";
+  -moz-font-feature-settings: "numr";
+}
+
+.dnom {
+  font-feature-settings: "dnom";
+  -webkit-font-feature-settings: "dnom";
+  -moz-font-feature-settings: "dnom";
+}
+
+
 .salt .salt_fig{
   color: #888;
 }
