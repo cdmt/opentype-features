@@ -19,12 +19,20 @@ main{
   max-width: 1200px;
   margin: auto;
 }
-.title {
+header{
   font-family: bale;
-  font-size: 50px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   margin-bottom: 30px;
   border-bottom: 2px solid #bbb;
+}
+.title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.sub-title{
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .title-not {
